@@ -1,0 +1,14 @@
+.grid-container {
+  margin-top: 0.5em;
+  display: grid;
+  grid-template-areas:
+    "left"
+    "middle"
+    "right";
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-areas: "left middle right";
+  }
+}
